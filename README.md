@@ -12,11 +12,31 @@ The main goal for this project is to predict with a level of certainty the proje
 
 ## 02 BUSINESS ASSUMPTIONS
 <ul>
-<li>The days when stores were closed were removed from the analysis.</li>
-<li>Only stores with sales values bigger than 0 were considered.</li>
-<li>For stores which did not have Competition Distance information, it was considered that the distance should be the longest distance observed in the data set.</li>
+<li>Stores marked as opened and with no results were removed from the analyzes.</li>
+<li>Most of stores are closed on Sundays, reducing the total amount of sales during the week. For this project, it was kept all open and unopen stores to indicates this nuance for training the algorithm. </li>
+<li>One semester of 180 stores are missing on records of sales. This inconsistency was kept since there were records of previous year.</li>
 </ul>
-## 0 SOLUTION STRATEGY
+
+## 03 SOLUTION STRATEGY
+The strategy adopted was the following:
+
+<b>Step 01.</b> Data Description: Searching for missing values, checking data types and preliminary statistical description.
+
+<b>Step 02.</b> Feature Engineering: Looked for elaborate the hypotheses mindmap to understand how this bussiness work and derivate some new features the dig into the problem.
+
+<b>Step 03.</b> Data Filtering: Data with no information or containing inputs which does not match to the scope of the project were removed.
+
+<b>Step 04.</b> Exploratory Data Analysis: This crucial steps aims to answer the main questions indicated on hypotheses map, by analyzing the data on univariate, bivariate and multivariate analysis. The main insights are summarized by the end of that step.
+
+<b>Step 05.</b> Data Preparation: Transforming the data for inputing to machine learning model. Most of jobs were rescaling and transforming the features values.
+
+<b>Step 06.</b> Feature selection: Verifying which feature is important to input to the machine learning model. Some algorithms were used to assess the best ones.
+
+<b>Step 07.</b> Machine learning modelling: Training and predicting results with machine algorithms. Cross-validation were used to assess the best performance model.
+
+<b>Step 08.</b> Model-to-business: Convert the results for business managers.
+
+<b>Step 09.</b> Deploy Model to Production: Deploying the model to be reachable to all retail chain managers.
 
 ## 0 TOP 3 DATA INSIGHTS
 
