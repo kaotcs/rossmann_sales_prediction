@@ -49,10 +49,12 @@ The strategy adopted was the following:
 ## 05 MACHINE LEARNING MODEL APPLIED
 
 The following machine learning algorithms were used to predict sales:
+
 * Linear Regression;
 * Regularized Linear Regression - Lasso;
 * Random Forest Regressor;
 * XGBoost Regressor.
+
 Every model were cross-validated and its performance were compared against a model using the mean sales by stores.
 
 ## 06 MACHINE LEARNING MODEL PERFORMANCE
