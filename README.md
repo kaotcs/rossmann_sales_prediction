@@ -42,16 +42,23 @@ The strategy adopted was the following:
 
 * The mean sales by day of extended assortment is higher than the others assortment types. In the other hand, 'basic' assortment have 15% more stores and it doesn't show a better performance.
 
-* Stores with closest competitors sells are higher. It may indicates there is no direct competitors fighting for the same customers in the same area.
+* Stores sells are higher with closest competitors. It may indicates there is no direct competitors fighting for the same customers in the same area.
 
 * Stores with extended promo (promo2) does not have a better performance comparing with regular promo.
 
-## 0 MACHINE LEARNING MODEL APPLIED
+## 05 MACHINE LEARNING MODEL APPLIED
 
-## 0 MACHINE LEARNING MODEL PERFORMANCE
+The following machine learning algorithms were used to predict sales:
+* Linear Regression;
+* Regularized Linear Regression - Lasso;
+* Random Forest Regressor;
+* XGBoost Regressor.
+Every model were cross-validated and its performance were compared against a model using the mean sales by stores.
 
-## 0 CONCLUSIONS
+## 06 MACHINE LEARNING MODEL PERFORMANCE
 
-## 0 LESSONS LEARNED
+## 07 CONCLUSIONS
 
-## 1 NEXT STEPS AND IMPROVEMENTS
+## 08 LESSONS LEARNED
+
+## 09 NEXT STEPS AND IMPROVEMENTS
