@@ -38,7 +38,13 @@ The strategy adopted was the following:
 
 <b>Step 09.</b> Deploy Model to Production: Deploying the model to be reachable to all retail chain managers.
 
-## 0 TOP 3 DATA INSIGHTS
+## 04 TOP 3 DATA INSIGHTS
+
+* The mean sales by day of extended assortment is higher than the others assortment types. In the other hand, 'basic' assortment have 15% more stores and it doesn't show a better performance.
+
+* Stores with closest competitors sells are higher. It may indicates there is no direct competitors fighting for the same customers in the same area.
+
+* Stores with extended promo (promo2) does not have a better performance comparing with regular promo.
 
 ## 0 MACHINE LEARNING MODEL APPLIED
 
