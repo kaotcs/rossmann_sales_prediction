@@ -59,11 +59,16 @@ Every model were cross-validated and its performance were compared against a mod
 
 ## 06 MACHINE LEARNING MODEL PERFORMANCE
 
+The result of running the machine learning algorithms as showed bellow. Since the RMSE standard deviation is lower for XGBoost Regressor, it was used for fine tunning of the model. Random Forest Regressor performed better, but this models has a higher computer performance cost and the result was close to XGBoost.
+
 <img src="https://raw.githubusercontent.com/kaotcs/rossmann_sales_prediction/main/img/ml_performance.jpg" alt="ML peformance"
 	title="Rossmann"/>
 
 ## 07 CONCLUSIONS
 
+
 ## 08 LESSONS LEARNED
+For this initial cicle of exploring the data with machine learning, XGBoost can perform better than the average model by 11%. Since the retail chain didn´t have previous method to predict sells, this model can help the managers to assess the performance of each stores and make decisions about the future by expanding or closing stores.
 
 ## 09 NEXT STEPS AND IMPROVEMENTS
+By analyzing the residuals of the final model, it is important to indicate the model have room for improvement. For this initial aprouch, it was used several features that could be worked together by using correspondence analysis since there are many categorical features or making a clustering analyzis. This two methods can be used for the next cicle of the CRISP in this project.
