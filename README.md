@@ -59,6 +59,9 @@ Every model were cross-validated and its performance were compared against a mod
 
 ## 06 MACHINE LEARNING MODEL PERFORMANCE
 
+<img src="https://raw.githubusercontent.com/kaotcs/rossmann_sales_prediction/main/img/ml_performance.jpg" alt="ML peformance"
+	title="Rossmann"/>
+
 ## 07 CONCLUSIONS
 
 ## 08 LESSONS LEARNED
