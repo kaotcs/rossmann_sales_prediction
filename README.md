@@ -10,20 +10,22 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 
 The main goal for this project is to predict with a level of certainty the projections of sales for the next 6 weeks, since the retail chain wish to annalyze how to improve the performance of stores by figuring out which one have a better performance or not. This project aims to indicate the health of retail chain and its future.
 
-## 02 BUSINESS RESULTS
+## 02 BUSINESS ASSUMPTIONS
+<ul>
+<li>The days when stores were closed were removed from the analysis.</li>
+<li>Only stores with sales values bigger than 0 were considered.</li>
+<li>For stores which did not have Competition Distance information, it was considered that the distance should be the longest distance observed in the data set.</li>
+</ul>
+## 0 SOLUTION STRATEGY
 
-## 03 BUSINESS ASSUMPTIONS
+## 0 TOP 3 DATA INSIGHTS
 
-## 04 SOLUTION STRATEGY
+## 0 MACHINE LEARNING MODEL APPLIED
 
-## 05 TOP 3 DATA INSIGHTS
+## 0 MACHINE LEARNING MODEL PERFORMANCE
 
-## 06 MACHINE LEARNING MODEL APPLIED
+## 0 CONCLUSIONS
 
-## 07 MACHINE LEARNING MODEL PERFORMANCE
+## 0 LESSONS LEARNED
 
-## 08 CONCLUSIONS
-
-## 09 LESSONS LEARNED
-
-## 10 NEXT STEPS AND IMPROVEMENTS
+## 1 NEXT STEPS AND IMPROVEMENTS
