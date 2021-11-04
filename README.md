@@ -65,7 +65,7 @@ The result of running the machine learning algorithms as showed bellow. Since th
 	title="Rossmann"/>
 
 ## 07 CONCLUSIONS
-
+Deploying this model to production, the managers will be informed with an accurated prediction of sales in 6 weeks window. The projection of sales is important to assess the real performance of each stores and predict the next steps for retail chain.
 
 ## 08 LESSONS LEARNED
 For this initial cicle of exploring the data with machine learning, XGBoost can perform better than the average model by 11%. Since the retail chain didn´t have previous method to predict sells, this model can help the managers to assess the performance of each stores and make decisions about the future by expanding or closing stores.
